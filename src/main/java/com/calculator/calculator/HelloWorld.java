@@ -1,0 +1,12 @@
+package com.calculator.calculator;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloWorld {
+    @GetMapping
+    public String love() {
+        return "<b>Люблю учиться!</b>";
+    }
+}
